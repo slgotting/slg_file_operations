@@ -1,6 +1,6 @@
 
-from file_operations import FileOperations
-from pprint import pprint
+from .file_operations import FileOperations
+# from pprint import pprint
 
 
 def main():
