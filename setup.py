@@ -3,7 +3,7 @@
 import runpy
 from setuptools import setup, find_packages
 
-PACKAGE_NAME = "package-boilerplate"
+PACKAGE_NAME = "slg-file-operations"
 version_meta = runpy.run_path("./version.py")
 VERSION = version_meta["__version__"]
 
@@ -25,7 +25,7 @@ if __name__ == "__main__":
         packages=find_packages(),
         install_requires=parse_requirements("requirements.txt"),
         python_requires=">=3.6.3",
-        scripts=["scripts/boilerplate-cli"],
+        scripts=["scripts/slg-file-operations"],
         description="This is a description.",
         long_description=long_description,
         long_description_content_type="text/markdown",
